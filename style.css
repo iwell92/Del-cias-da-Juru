@@ -1,0 +1,59 @@
+*{
+	margin: 0; 
+	padding: 0;
+}
+
+#marca{
+	font-family: 'Dancing Script', cursive, 'Brush Script MT';
+	font-size: 26px;
+	font-weight: bold;
+	color: #ff30b6;
+}
+
+#destaque{
+	background-image: radial-gradient(circle at 50% 10.38%, #ffe5e3 0, #ffe5e1 5%,
+	 #ffe6df 10%, #ffe6dd 15%, #fde7db 20%, #fce8da 25%, #fae9d9 30%, #f7e9d8 35%,
+	 #f5ead8 40%, #f2ebd8 45%, #efecd8 50%, #ecedd9 55%, #e9eeda 60%, #e6eedb 65%,
+	 #e3efdd 70%, #e0f0df 75%, #ddf0e1 80%, #dbf1e3 85%, #d9f1e6 90%, #d7f1e8 95%,
+	 #d5f1eb 100%);
+ 	padding: 10px; 	
+}
+
+/*Footer*/
+.rodape{
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.art_rodape{
+	text-decoration: none;
+	text-align: center;
+	width: 33.33%;
+	margin: 10px;
+}
+
+/*Botão voltar ao topo*/
+.link-topo{
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+	position: fixed;
+	right: 20px;
+	bottom: 20px; 
+	box-shadow: 3px 3px 10px #333;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.whatsapp{
+	text-decoration: none;
+	position: fixed;
+	right: 20px;
+	bottom: 100px; 
+	width: 50px;
+	height: 50px;
+}
+
